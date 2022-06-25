@@ -1,0 +1,157 @@
+body{
+    background-color: #1f2124;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+  background-color:#292a2c;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1rem;
+}
+.center{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.column-1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c3d3e;
+    border:1px solid #3c3d3e;
+    border-radius: 0.3rem;
+    padding: 10px;
+    margin-top: 50px;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.input-form input{
+    padding: 5px;
+    width:100%;
+    font-size: 20px;
+    background-color: #3c3d3e;
+    margin-bottom:10px;
+    border: 1px solid lightgray;
+    color: white;
+    border-radius: 0.3rem;
+}
+.input-form textarea{
+    padding: 5px;
+    width:100%;
+    font-size: 20px;
+    background-color: #3c3d3e;
+    margin-bottom:10px;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    color: white;
+    border-radius: 0.3rem;
+}
+.sub-btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: green;
+    border: 1px solid green;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    transition: all linear 0.1s;
+}
+.sub-btn:hover{
+    background-color: brown;
+    border:1px solid brown;
+}
+.column-2{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2124;
+    border:1px solid #1f2124;
+    padding:10px;
+    margin-top: 50px;
+    border-radius: 0.3rem;
+}
+.task{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+    border: 1px solid #3c3d3e;
+    background-color: #3c3d3e;
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+.task h2,p,button{
+    padding: 10px;
+}
+.task h2{
+    width:15%;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+}
+.task p{
+    width:25%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: left;
+
+}
+.task button{
+    width: 10%;
+    font-size: 18px;
+    border-radius: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+.edit-btn{
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.edit-btn:hover{
+    background-color: green;
+    color:white;
+    border:1px solid green;   
+}
+.del-btn{
+    background-color: rgb(177, 125, 125);
+    border: 1px solid rgb(177, 125, 125);
+    border-radius: 0.3rem;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.del-btn:hover{
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+}
